@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kgakgolo Group Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="brand">
+      <img class="logo" src="images/logo.png" alt="Kgakgolo Group Project logo">
+      <div>
+        <div class="brand-name">Kgakgolo Group Project</div>
+        <div class="motto">Mebala e di kgakaneng</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#areas">Areas</a>
+      <a href="#join">Join</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker">Community development and participation</p>
+        <h1>Elevating Our Community</h1>
+        <p class="lead">Volunteers, caterers, event teams and young people working together for a stronger community.</p>
+        <a class="btn btn-gold" href="#join">Join Us</a>
+      </div>
+      <div class="hero-photo" role="img" aria-label="Photo placeholder: community event">[HERO PHOTO: community event]</div>
+    </section>
+
+    <section id="about" class="block">
+      <h2>About Us</h2>
+      <p class="text">[ABOUT TEXT: a short paragraph on who Kgakgolo Group Project is, its vision and the community it serves.]</p>
+    </section>
+
+    <section id="areas" class="block">
+      <h2>Areas of Participation</h2>
+      <div class="cards">
+
+        <button class="flip-card" type="button" aria-label="Community Volunteers. Tap to flip the card.">
+          <span class="flip-inner">
+            <span class="face front">
+              <img class="photo" src="images/volunteers.jpg" alt="Volunteers working together">
+              <span class="card-body"><strong>Community Volunteers</strong><span>General volunteering that supports local projects.</span></span>
+            </span>
+            <span class="face back"><strong>Get involved</strong><span>Choose this on the application form and tell us when you are free to help.</span></span>
+          </span>
+        </button>
+
+        <button class="flip-card" type="button" aria-label="Catering and Food Prep. Tap to flip the card.">
+          <span class="flip-inner">
+            <span class="face front">
+              <img class="photo" src="images/catering.jpg" alt="Food being prepared and served">
+              <span class="card-body"><strong>Catering &amp; Food Prep</strong><span>Preparing and serving food at community events.</span></span>
+            </span>
+            <span class="face back"><strong>Get involved</strong><span>Join the food team that cooks, packs and serves at our events.</span></span>
+          </span>
+        </button>
+
+        <button class="flip-card" type="button" aria-label="Event Logistics. Tap to flip the card.">
+          <span class="flip-inner">
+            <span class="face front">
+              <img class="photo" src="images/events.jpg" alt="An event being set up">
+              <span class="card-body"><strong>Event Logistics</strong><span>Setting up, running and packing down events.</span></span>
+            </span>
+            <span class="face back"><strong>Get involved</strong><span>Help with setup, transport, equipment and keeping events running smoothly.</span></span>
+          </span>
+        </button>
+
+        <button class="flip-card" type="button" aria-label="Youth and Skills. Tap to flip the card.">
+          <span class="flip-inner">
+            <span class="face front">
+              <img class="photo" src="images/youth.jpg" alt="Young people learning new skills">
+              <span class="card-body"><strong>Youth &amp; Skills</strong><span>Projects that build skills for young people.</span></span>
+            </span>
+            <span class="face back"><strong>Get involved</strong><span>Mentor young people or join a skills project as a student member.</span></span>
+          </span>
+        </button>
+
+      </div>
+    </section>
+
+    <section id="join" class="join">
+      <div class="join-text">
+        <h2>Join Us</h2>
+        <p class="text">Apply for membership online. Choose how you want to take part and we will get back to you. (Demo preview of the application form.)</p>
+      </div>
+      <form id="join-form" class="join-form">
+        <label for="name">Full name</label>
+        <input id="name" type="text" required>
+
+        <label for="whatsapp">WhatsApp number</label>
+        <input id="whatsapp" type="tel" required>
+
+        <label for="area">Area of participation</label>
+        <select id="area">
+          <option>Community Volunteer</option>
+          <option>Catering &amp; Food Prep</option>
+          <option>Event Logistics</option>
+          <option>Youth &amp; Skills</option>
+        </select>
+
+        <button class="btn btn-gold" type="submit">Submit Application</button>
+        <p id="form-note" class="form-note" role="status"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>Contact</h2>
+      <div class="contact-buttons">
+        <a class="btn btn-navy" href="#contact">WhatsApp: [NUMBER]</a>
+        <a class="btn btn-outline" href="#contact">Email: [ADDRESS]</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Kgakgolo Group Project NPO &middot; <em>Mebala e di kgakaneng</em> &middot; Elevating Our Community
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
